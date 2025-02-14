@@ -1,0 +1,66 @@
+body{
+    background-color:DarkSlateGrey;
+    font-family: Arial, sans-serif;
+    margin-left: 5px;
+    }
+
+#profile {
+    list-style-type: none;
+    text-align: center;
+    color: #FFFFFF;
+    }
+
+ #profile li {
+    display: inline;
+    margin: 15px;
+    }
+
+#streak{
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    }
+
+#titreStreak {
+    margin-left: 40px;
+
+}
+
+#streak li {
+display: inline;
+margin: 5px;
+padding: 5px;
+}
+
+      
+#listeLettres{
+    list-style-type: none;
+} 
+
+.text_black{
+    color: #CCCCC;
+    margin-left:40px;
+    }
+
+.text_black p {
+    display: inline;
+    margin: 10px;    
+    }
+
+.active-day {
+    color:#00CC00;
+    animation:pulseColorChange 2s infinite;
+    }
+
+.inactive-day {
+    color: #676767;
+     }
+
+@keyframes pulseColorChange {
+0% {color:#676767; font-size: 100%}
+50% {color:#00CC00; font-size: 120%;}
+100% {color:#676767; font-size: 100%}
+}
+
+
